@@ -2,7 +2,7 @@
 </script>
 
 <main>
-  <img src="assets/profile.png" alt="profile" />
+  <img src="./src/assets/profile.png" alt="">
   <div>
     <h3>Floresca, Karl Anthony T.</h3>
     <h4>Bachelor of Science in information Technology <br />(CNSC)</h4>
@@ -22,7 +22,7 @@
     height: 490px;
     border-radius: 10px;
     text-align: center;
-    
+
     box-shadow: 5px 5px 15px rgba(0, 0, 0.5, 0.5);
   }
   img {
