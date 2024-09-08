@@ -3,21 +3,21 @@
 
   let projectOBJ = [
     {
-      pic: "src/assets/Journey.png",
+      pic: "../assets/Journey.png",
       label: "Journey through prelict",
       link: "https://drive.google.com/drive/folders/19acfA0y4TUYuYtoZL4cOgWcUAdetJ05d?usp=sharing",
       description:
         "Made with JAVA, a simple game that fallows an adventurer running in the lands of prelict gathering artifacts that were lost in history",
     },
     {
-      pic: "src/assets/WebProject.png",
+      pic: "../assets/WebProject.png",
       label: "The Coffee Lounge",
       link: "https://drive.google.com/drive/folders/1_O5122ZfKXV0hv72XM2QD_CCrPBgzlup?usp=sharing",
       description:
         "Utilizing vanila HTML, CSS, and Javascript we Created a website as a requirement for our final project developed alongside my groupmates who mainly handled the logistics",
     },
     {
-      pic: "src/assets/orderSystem.png",
+      pic: "../assets/orderSystem.png",
       label: "Ordering System",
       description:
         "Created using visual basic, a system that handles orders for convience, this system was made during my first year in college to expand my knowledge",
