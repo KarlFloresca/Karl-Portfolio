@@ -2,7 +2,7 @@
 </script>
 
 <main>
-  <img src="..\assets\profile.png" alt="profile" />
+  <img src="./src/assets/profile.png" alt="profile" />
   <div>
     <h3>Floresca, Karl Anthony T.</h3>
     <h4>Bachelor of Science in information Technology <br />(CNSC)</h4>
@@ -15,14 +15,15 @@
 
 <style>
   main {
-    background-color: #FFDBB5;
+    background-color: #ffdbb5;
     margin-top: 120px;
     margin-left: 80px;
     width: 400px;
     height: 490px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 5px 5px 15px rgba(0, 0q, 0.5, 0.5);
+    
+    box-shadow: 5px 5px 15px rgba(0, 0, 0.5, 0.5);
   }
   img {
     margin-top: 20px;
@@ -45,7 +46,7 @@
     font-size: small;
   }
   p {
-    font-family: 'Poppins';
+    font-family: "Poppins";
     margin: 10px 2em 2em;
     text-align: justify;
   }
