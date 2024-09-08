@@ -2,9 +2,9 @@
 </script>
 
 <main>
-  <img src="./src/assets/profile.png" alt="">
+  <img src="./src/assets/profile.png" alt="" />
   <div>
-    <h3>Floresca, Kaarl Anthony T.</h3>
+    <h3>Floresca, Kaaarl Anthony T.</h3>
     <h4>Bachelor of Science in information Technology <br />(CNSC)</h4>
     <p>
       19 year old filipino developer from the province of camarines norte, ready
