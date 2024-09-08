@@ -2,7 +2,7 @@
 </script>
 
 <main>
-  <img src="./src/assets/profile.png" alt="profile" />
+  <img src="assets/profile.png" alt="profile" />
   <div>
     <h3>Floresca, Karl Anthony T.</h3>
     <h4>Bachelor of Science in information Technology <br />(CNSC)</h4>
