@@ -5,10 +5,11 @@
 
 <main>
   <ProfileCard />
-  <DescriptionField/>
+  <DescriptionField />
 </main>
+
 <style>
-    main{
-        display: flex;
-    }
+  main {
+    display: flex;
+  }
 </style>

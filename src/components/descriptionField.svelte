@@ -1,17 +1,16 @@
 <main>
     <div>
-        <h3>Personality <br></h3> 
+        <h3>About Me<br><br></h3> 
         <p>
-            I'm an outgoing, friendly and hard working person. I try to keep myself ready for anything wether it is art, programming or even web design
-            I also consider myself as a fast learner especially in all things digital. my greatest strength is the people around me and those who i can learn from in the same field.
+            I describe myself as an ambitious, outgoing, and friendly individual. I try to keep myself immerse in the fields of  programming, and web development. I am also knowledgeable in the field of art, both traditional and digital illustrations, which I can apply in the field of development, specifically in web design.
+            I also consider myself as a fast learner, allowing me to easily adapt to a variety of workload, and situations. I would say that my greatest strength are the people around me and those who i can learn from in the same field, since they help me grow as a developer, and as an individual.
         </p>  <br>
-        <h3>Current Goals in Life <br></h3>
+        <h3>Current Goals in Life <br><br></h3>
         <p>
-            May current plan as of now is take up freelancing for more Experience and to also gain minor income for myself inorder to get better
-            equipment and tools for my work. <br><br>
-                I also plan to graduate in Camarines Norte State Collage, soon to be University of Camarines Norte in my chosen path of BSIT. <br><br>
-            For the most part may constant goal is to learn more about the field that awaits me at the end of my journey, And also i
-            dream to be a full time game developer in the future.
+            As of now, I am taking up freelancing to gain more experience, and to earn income for myself in order to get better
+            devices, and equipments for my work.
+                I also plan to graduate in Camarines Norte State Collage,the soon to be University of Camarines Norte with the degree of Bachelor of Science in Information Technology. <br><br>
+            My constant goal is to learn more about this field, in order to help me grow as a developer, and assist me to conquer the journey ahead of me.
 
         </p>
     </div>
@@ -23,6 +22,7 @@
         width: 800px;
         margin-left: 5em;
         margin-top: 150px;
+       
     }
     h3{
         font-weight: 1000;
@@ -35,7 +35,7 @@
         text-align: justify;
         font-size: 16.5px;
         font-weight: 500;
-        line-height: 1.5em;
+        line-height: 1.6em;
     }
 
 </style>

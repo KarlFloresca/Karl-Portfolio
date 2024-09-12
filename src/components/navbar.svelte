@@ -18,7 +18,7 @@
 <main>
 <div>
   <nav>
-    <h1>My <span>Website</span></h1>
+    <h1>Karl's <span>Service</span></h1>
     <ul>
       {#each navItems as item}
         <li class:active={activeLink === item.href}>
@@ -40,8 +40,8 @@
   main{
     position: fixed;
     width: 100%;
-    height: 5rem;
-    background-color: #412713;
+    height: auto;
+    background-color: #2a1c11;
     font-family: 'Poppins';
   }
   span {
@@ -59,35 +59,34 @@
     color: white;
   }
   h1 {
-    font-weight: 800;
+    font-weight: 600;
     font-family: 'Montserrat';
-    font-size: 1.2em;
-    margin-left: 2em;
+    font-size: 2em;
+    margin-left: 1em;
   }
   ul {
     display: flex;
     margin-left: auto;
     margin-right: 2em;
+    line-height: 3.5rem;
     list-style: none;
   }
   li {
+    height: 2rem;
     margin-left: 2em;
     font-size: 1.2em;
+    transition: 1s ease-in-out;
   }
   a {
     color: white;
     text-decoration: none;
-  }
-  a:hover {
-    color: rgb(242, 255, 154);
-    transition: 0.5s;
-  }
+  }   
 
   .active{
     font-weight: 500;
-    background-color: rgb(32, 22, 0);
+    background-color: #9e6d18;
     border-radius: 5px;
-    line-height: 1px;
-    padding-top: 3px;
+    font-size: 1.5em;
+    line-height: 1rem;
   }
 </style>

@@ -47,7 +47,7 @@
       label: "Pycharm",
     },
     {
-      label: "filmora",
+      label: "Filmora",
     },
     {
       label: "Adobe Photoshop",
@@ -89,7 +89,7 @@
       label: "Computer programming",
     },
     {
-      label: "web design",
+      label: "Web design",
     },
     {
       label: "Front/Backend web development",
@@ -116,7 +116,7 @@
       label: "Django",
     },
     {
-      label: "advance animation",
+      label: "Advance animation",
     },
     {
       label: "C++",
@@ -131,7 +131,7 @@
   <h3>
     <span>My</span> current skills Languages and Tools
   </h3>
-  <section>
+  <section class="layer1">
     <div>
       <Section title="Practical Skills"
         ><Listmaker itemList={prac}></Listmaker></Section
@@ -164,47 +164,55 @@
       <Listmaker itemList={learning}></Listmaker>
     </div>
   </section>
-</main>
+</main> 
 
 <style>
   main {
-    background-color: hsl(279, 70%, 96%);
+    background-color: #fcf0db;
     height: auto;
   }
   section {
     margin-top: 0;
     display: flex;
+    justify-content:center;
+    gap: 40px;
   }
   h3 {
-    font-size: 3em;
+    font-size: 2em;
     background-color: rgb(30, 30, 30);
     margin: 0;
-    padding: 0.7em;
+    padding: 0.9em;
     color: white;
-    font-family: Tahoma;
+    font-family: "Montserrat";
     text-align: center;
   }
+  
   .layer2 div {
-    padding: 10px 10px 15px 15px;
-    background-color: rgb(50, 19, 67);
-    color: rgb(247, 231, 255);
+    padding: 30px 30px 35px 35px;
+    background-color: #4b3200;
+    color: #eae4cf;
     border-radius: 10px;
+    font-size: 15px;
+    width: 30rem;
+    line-height: 50px;
   }
+
   div {
     width: 40em;
     height: auto;
-    margin: 30px;
+    margin: 25px;
+    border-radius: 10px;
     margin-top: 2em;
+    box-shadow: 10px 8px 15px 1px rgb(99, 99, 99);
   }
   .layer2 div:hover{
     background-color: black;
     color: white;
-    padding: 15px 15px 25px 25px;
+    padding: 45px 45px 45px 45px;
     transition: 1s;
     transition-timing-function: ease-in-out;
-   
   }
   span {
-    color: blueviolet;
+    color: #fad89e;
   }
 </style>

@@ -1,13 +1,12 @@
 <script>
 </script>
-
 <main>
-  <img src="./src/assets/profile.png" alt="" />
+  <img src="./images/Profile.png" alt="profilePicture" />
   <div>
-    <h3>Floresca, Kaaarl Anthony T.</h3>
+    <h3>Floresca, Karl Anthony T.</h3>
     <h4>Bachelor of Science in information Technology <br />(CNSC)</h4>
     <p>
-      19 year old filipino developer from the province of camarines norte, ready
+      19 year old Filipino developer from the province of Camarines Norte, ready
       to learn and grow in the field of technology
     </p>
   </div>
@@ -16,10 +15,10 @@
 <style>
   main {
     background-color: #ffdbb5;
-    margin-top: 120px;
+    margin-top: 140px;
     margin-left: 80px;
     width: 400px;
-    height: 490px;
+    height: 510px;
     border-radius: 10px;
     text-align: center;
 

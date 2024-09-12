@@ -8,7 +8,7 @@
 <main>
   <!-- svelte-ignore a11y-img-redundant-alt -->
   <div class="Image">
-    <a href={link}><img src={pic} alt="project Image" /></a>
+    <a href={link} target="_blank"><img src={pic} alt="project Image"/></a>
   </div>
   <div class="label">{label}</div>
   <div class="fill">. . .</div>
@@ -22,6 +22,7 @@
     height: auto;
     margin: 5px;
     border-radius: 10px;
+    box-shadow: 5px 5px 20px 4px rgb(111, 111, 111);
     margin: auto auto;
   }
   img {
@@ -51,8 +52,8 @@
     max-height: 0;
     color: whitesmoke;
     transition:
-      opacity 0.5s ease,
-      max-height 0.5s ease;
+      opacity 1.5s ease,
+      max-height 1.3s ease;
   }
   main:hover .description {
     max-height: 600px;
